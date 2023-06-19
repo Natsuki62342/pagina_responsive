@@ -1,0 +1,70 @@
+#fondo{    
+    background-image: url(https://cdn.pixabay.com/photo/2015/01/07/16/37/wood-591631_1280.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    height:100%;
+}
+.titulo {
+    color: white;      
+    text-shadow: -1px -1px +1px  black;                
+}
+.fotoperfil{
+    display: flex;
+    justify-content: center;    
+    height: 50vh;
+    align-items: center;
+}
+.imagen{
+    max-height: 80%;
+}
+.contenedor {
+    display: grid;
+    grid-template-columns: 1fr 1fr; 
+    grid-gap: 20px; 
+  }  
+.tituloJuegos{
+    color: white;      
+    text-shadow: -2px -2px +2px  black; 
+    text-align: center;
+    font-size: 150%;
+}
+.seccion1{
+    flex: 1;
+}  
+
+.seccion2{    
+    font-size: 120%;
+    padding-top: 5%;
+    color: white;      
+    text-shadow: -2px -2px +2px  black;    
+    flex: 1; 
+}
+.contenedor2{
+    color: white;      
+    text-shadow: -2px -2px +2px  black;
+    font-size: 150%;
+}
+#textoExpectativas{
+    text-align: justify;
+    height: 80%;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    align-content: center;
+    font-size: 115%;
+    color: white;      
+    text-shadow: -2px -2px +2px  black; 
+}
+  @media (max-width: 767px) {
+    .contenedor {
+      grid-template-columns: 1fr;
+    }
+  }
+.juegos{
+    justify-content: center;
+    text-align: center;    
+} 
